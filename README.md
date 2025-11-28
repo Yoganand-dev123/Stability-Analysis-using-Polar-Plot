@@ -7,6 +7,12 @@ Computer with MATLAB software
 ## Theory:
 
 Stability analysis using a polar plot in MATLAB examines how the system’s frequency response encircles the critical point ((-1,0)) based on the Nyquist stability criterion. If the polar plot does not encircle the ((-1,0)) point for an open-loop stable system, the closed-loop system is considered stable.
+![WhatsApp Image 2025-11-18 at 15 02 22_dcd5c7c9](https://github.com/user-attachments/assets/6c9f7384-85ab-41e5-b984-cfc1b4d15c34)
+
+![WhatsApp Image 2025-11-18 at 15 02 09_f1805cf8](https://github.com/user-attachments/assets/bf3868a8-c375-4fa4-8784-c10cdfc2e2ea)
+
+
+<img width="565" height="846" alt="image" src="https://github.com/user-attachments/assets/f3e3d3de-eacd-4139-8ab8-3cdddd156cba" />
 
 
 ## Procedure:
@@ -37,15 +43,16 @@ else
     disp('unstable')
 end
 ```
+
 ## Output:
-<img width="690" height="607" alt="image" src="https://github.com/user-attachments/assets/cf3791e2-ba81-4f8a-9106-f71a98fafa8a" />
+<img width="702" height="629" alt="image" src="https://github.com/user-attachments/assets/84c7aa5d-d91d-4eb1-b4ae-7f410c8447f6" />
+
+
 
 ## Result:
 Thus the polar plot for the given transfer function was drawn and verified using MATLAB. <br>
-Gain margin =   0.7<br>
-Phase Margin = -8.8865<br>
-Gain crossover frequency = 3.7565<br>
-Phase crossover frequency = 3.1623<br>
+Gain margin = 0.7<br>
+Phase Margin = -8.88 <br>
+Gain crossover frequency = 3.75 <br>
+Phase crossover frequency = 3.16 <br>
 The system is unstable
-
-
